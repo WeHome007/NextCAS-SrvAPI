@@ -21,5 +21,8 @@ System.out.println(JSON.toJSONString(client.execute(req5),true));
 
 //查询云渲染运行中数量
 System.out.print(JSON.toJSONString(client.execute(new CountRuningInstancesRequest()),true));
+
+//生成24小时有效的用户访问Token
+System.out.println(client.createVisitToken(System.currentTimeMillis() + 24 * 60 * 60 * 1000));
 ```
 

@@ -5,7 +5,7 @@ POM引入:
 <dependency>
   <groupId>cn.nexthuman.open</groupId>
   <artifactId>nextsrv-java</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.5</version>
 </dependency>
 ```
 调用形式：

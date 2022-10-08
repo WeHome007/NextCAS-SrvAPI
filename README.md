@@ -1,2 +1,2 @@
 # NextSRV
-NextHuman服务端开放平台
+服务端开放平台

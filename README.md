@@ -1,5 +1,6 @@
-## NextHuman服务端开放平台对接规范
+## NextHuman开放平台规范
 ### API鉴权
-#### 1)、从NextHuman获取企业/个人账户对应的accessKey、accessSecret密钥对，用于接口加解密令牌和应用的访问令牌
+#### 1)、从NextHuman获取账户对应的accessKey、accessSecret，用于接口/应用的访问令牌。
+#### 2)、使用JWT协议签发令牌
 
 

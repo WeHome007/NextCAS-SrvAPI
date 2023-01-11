@@ -53,7 +53,7 @@ public String createMasterToken(String accessKey,String accessSecret,long expire
 
 3)、通过API创建的“形象”资产，API可以随意编辑和删除(软删除，避免用户引用出错)；
 
-4)、特别注意的是：不可在己方应用中使用在NextHuman商城中购买的资产(不可在应用二次分发)，也不可单独调取已购买资产(除上述第2条这类特殊情况)；
+4)、特别注意的是：不可在己方应用中使用在NextHuman商城中购买的资产(不可在应用中二次分发)，也不可单独接口加载NextHuman商城中已购的资产(除上述第2条这类特殊情况)；
 
 
 

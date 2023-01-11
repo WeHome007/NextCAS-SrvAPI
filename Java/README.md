@@ -14,9 +14,9 @@ NextHumanClient client = new NextHumanClient("${accessKey}","${accessSecret}");
 c)、令牌生成
 ```
 //生成24小时有效的“用户”访问Token
-System.out.println(client.createVisitToken(System.currentTimeMillis() + 24 * 60 * 60 * 1000));
+String visitToken = client.createVisitToken(System.currentTimeMillis() + 24 * 60 * 60 * 1000);
 //生成24小时有效的"服务端"访问Token
-System.out.println(client.createMasterToken(System.currentTimeMillis() + 24 * 60 * 60 * 1000));
+String masterToken = client.createMasterToken(System.currentTimeMillis() + 24 * 60 * 60 * 1000);
 ```
 
 

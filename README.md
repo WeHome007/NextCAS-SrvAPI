@@ -25,4 +25,7 @@ public String createMasterToken(String accessKey,String accessSecret,long expire
 ```
 3)、访问令牌通过HTTP请求头accessToken进行传递即实现彼此鉴权；
 
+### 访问控制
+1)、应用端每“启动”一次应用，即会触发一次鉴权，鉴权超过账号所约定的套餐，即会鉴权失败，影响使用，鉴权次数自然日统计和限制；
+
 

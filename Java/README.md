@@ -10,7 +10,6 @@ a)、POM引入:
 b)、SDK初始化：
 ```
 NextHumanClient client = new NextHumanClient("${accessKey}","${accessSecret}");
-client.setUrl("https://dev.nexthuman.cn/open");//设置测试环境地址(线上无需调用)
 ```
 c)、令牌生成
 ```

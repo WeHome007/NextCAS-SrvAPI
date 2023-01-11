@@ -46,7 +46,7 @@ public String createMasterToken(String accessKey,String accessSecret,long expire
 
 
 ### 资源控制
-1)、可以通过API加载NextHuman账号下“自用”和“通用资产”道具资产,在己方应用中可以自己买卖账号下“自用资产”(己方业务逻辑)，但不可在己方应用售卖NextHuman平台的通用资产给己方用户；
+1)、可以通过API加载NextHuman账号下“自用”和“通用资产”道具资产,在己方应用中可以自己买卖账号下“自用资产”(己方业务逻辑)，可以在己方应用中将“NextHuman资产”作为免费道具给用户使用，但不可在己方应用售卖NextHuman平台的“通用资产”给己方用户；
 
 2)、可以通过API加载NextHuman账号下创作的“形象”、"NPC"、“环境”资产，但不可使用API编辑这类由NextHuman客户端创作的这类资产；
 

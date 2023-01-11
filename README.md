@@ -42,11 +42,17 @@ public String createMasterToken(String accessKey,String accessSecret,long expire
 
 3)、不同套餐有不同等级的每日免费CDN使用量，超过使用量按正常CDN计费即可(如应用运行在NextHuman云端，系统对资源包有LRU缓存机制，会比较节省流量)；
 
+4)、其他按量使用的相关资源参见官方说明；
+
 
 ### 资源控制
-1)、可以通过API加载NextHuman账号下“自用”和“通用资产”道具资产；
+1)、可以通过API加载NextHuman账号下“自用”和“通用资产”道具资产,在己方应用中可以自己买卖账号下“自用资产”(己方业务逻辑)，但不可在己方应用售卖NextHuman平台的通用资产给己方用户；
 
-2)、可以通过API加载NextHuman账号下创作的“形象”和"NPC"资产，但不可
+2)、可以通过API加载NextHuman账号下创作的“形象”、"NPC"、“环境”资产，但不可使用API编辑这类由NextHuman客户端创作的这类资产；
+
+3)、通过API创建的“形象”资产，API可以随意编辑和删除(软删除，避免用户引用出错)；
+
+4)、特别注意的是：不可在己方应用中使用在NextHuman商城中购买的资产(不可在应用二次分发)，也不可单独调取已购买资产(除上述第2条这类特殊情况)；
 
 
 

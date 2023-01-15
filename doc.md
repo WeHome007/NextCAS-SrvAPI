@@ -17,8 +17,9 @@
 | 参数字段 | 参数类型     | 是否必须    | 备注 |
 |  ----   | ----  |----  |----  |
 | code | int32     | 是    | 返回接口，0表示业务请求正常，其它数值皆为异常 |
-| msg  | string     | 否    | 业务返回的错误说明 |
-| data | [Page](page.md)<[Bundle](bundle.md)> | 否    | 业务正常执行则存在 |
+| msg  | string     | 否    | 业务错误说明 |
+|errorCode | string | 否 ｜ 业务错误码|
+| data | [Page](page.md)<[Bundle](bundle.md)> | 否    | 分页结果 |
 
 
 

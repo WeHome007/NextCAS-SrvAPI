@@ -1,6 +1,8 @@
 ## NextHuman开放平台规范
 ### 接口文档
 
+[文档地址](doc.md)
+
 
 ### 应用鉴权
 1)、从NextHuman获取账户对应的accessKey、accessSecret，用于服务/应用端的访问令牌。

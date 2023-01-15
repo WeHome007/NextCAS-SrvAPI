@@ -14,7 +14,7 @@
 | pageSize |int32 | 是| 分页大小 |
 
 <kbd>Response</kbd>
-| 参数字段 | 参数类型     | 是否必须    | 备注 |
+| <div style="width: 80px">参数字段</div> | <div style="width: 100px;">参数类型</div>     | <div style="width: 80px">是否必须</div>    | 备注 |
 |  ----   | ----  |----  |----  |
 | code | int32     | 是    | 返回接口，0表示业务请求正常，其它数值皆为异常 |
 | msg  | string     | 否    | 业务错误说明 |
@@ -25,12 +25,12 @@
 
 ### 获取道具详情:<kbd>/srv/bundle/getBundleById</kbd>
 <kbd>Request</kbd>
-| 参数字段 | 参数类型 | 是否必须 | 备注 |
+| <div style="width: 80px">参数字段</div> | <div style="width: 100px;">参数类型</div>     | <div style="width: 80px">是否必须</div>    | 备注 |
 |  ----   | ----  |----  |----  |
 | bundleId | string | 是 | 道具Id|
 
 <kbd>Response</kbd>
-| 参数字段 | 参数类型     | 是否必须    | 备注 |
+| <div style="width: 80px">参数字段</div> | <div style="width: 100px;">参数类型</div>     | <div style="width: 80px">是否必须</div>    | 备注 |
 |  ----   | ----  |----  |----  |
 | code | int32     | 是    | 返回接口，0表示业务请求正常，其它数值皆为异常 |
 | msg  | string     | 否    | 业务错误说明 |

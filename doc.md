@@ -1,9 +1,11 @@
 ## 服务端接口文档
 
-### 接口1
-| table | syntax | without multiline cell content |
-| table | syntax | without multiline cell content |
+### 接口1:/
+| 参数字段 | 参数类型 | 是否必须 | 备注 |
+|  ----   | ----  |----  |----  |
+| xxxx |xxx | xxx| xxx|
 
 ### 接口2
-| table | syntax | without multiline cell content |
-| table | syntax | without multiline cell content |
+| 参数字段 | 参数类型 | 是否必须 | 备注 |
+|  ----   | ----  |----  |----  |
+| xxxx |xxx | xxx| xxx|

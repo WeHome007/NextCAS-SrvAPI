@@ -1,4 +1,4 @@
-## NextHuman开放平台规范
+## NextHuman开放平台
 ### 接口文档
 
 [接口文档](doc.md)

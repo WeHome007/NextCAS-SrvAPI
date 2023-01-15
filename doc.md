@@ -1,6 +1,6 @@
 ## 服务端接口文档
 
-### 服务请求域名
+### <kbd>服务请求域名</kbd>
 
 域名：https://nexthuman.cn/open
 

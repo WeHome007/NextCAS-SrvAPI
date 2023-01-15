@@ -48,7 +48,7 @@
 |  ----   | ----  |----  |----  |
 | code | int32     | 是    | 返回接口，0表示业务请求正常，其它数值皆为异常 |
 | msg  | string     | 否    | 业务错误说明 |
-| errorCode | string | 否 ｜ 业务错误码|
+| errorCode | string | 否 | 业务错误码 |
 | data | [Page](page.md)<[Nus](nus.md)> | 否    | 分页结果 |
 
 ### 获取环境详情:<kbd>/srv/bundle/getNusById</kbd>

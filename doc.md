@@ -21,7 +21,6 @@
 | data | [Page](page.md)<[Bundle](bundle.md)> | 否    | 分页结果 |
 
 
-
 ### 获取道具详情:<kbd>/srv/bundle/getBundleById</kbd>
 | 参数字段<img width=20/>  | 参数类型<img width=80/>    | 是否必须<img width=20/>    | 备注 |
 |  ----   | ----  |----  |----  |

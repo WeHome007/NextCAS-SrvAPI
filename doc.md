@@ -24,7 +24,7 @@
 
 | 参数字段 | 参数类型 | 是否必须 | 备注 |
 |  ----   | ----  |----  |----  |
-| scope | string | 是| NextHuman平台道具范围：creation(用户创作)、imports(用户自用)、free(通用/免费)、pri(定制)，<br/>目前只允许以上几个scope的数据获取，已购买和商城<br/>不支持SDK单独调用|
+| scope | string | 是| NextHuman平台道具范围：creation(用户创作)、imports(用户自用)、free(通用/免费)、<br/>pri(定制)，目前只允许以上几个scope的数据获取，已购买和商城<br/>不支持SDK单独调用|
 
 ### 获取环境详情:<kbd>/srv/bundle/getNusById</kbd>
 

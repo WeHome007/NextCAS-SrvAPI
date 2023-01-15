@@ -61,7 +61,7 @@
 | 参数字段 | 参数类型     | 是否必须    | 备注 |
 |  ----   | ----  |----  |----  |
 | code | int32     | 是    | 返回接口，0表示业务请求正常，其它数值皆为异常 |
-| msg  | string     | 否    | 业务错误说明 |
-| errorCode | string | 否 ｜ 业务错误码|
+| msg  | string    | 否    | 业务错误说明 |
+| errorCode | string | 否 ｜ 业务错误码 |
 | data | [Nus](nus.md) | 否    | 环境详情 |
 

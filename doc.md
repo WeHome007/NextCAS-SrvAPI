@@ -4,7 +4,7 @@
 
 <kbd>业务域名：https://nexthuman.cn/open</kbd>
 
-### 分类获取道具:<kbd>xx</kbd>
+### 分类获取道具:<kbd>/srv/bundle/</kbd>
 
 | 参数字段 | 参数类型     | 是否必须    | 备注 |
 |  ----   | ----  |----  |----  |

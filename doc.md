@@ -1,8 +1,8 @@
 ## 服务端接口文档
 
-<kbd>服务请求域名</kbd>
+### 服务请求域名
 
-域名：https://nexthuman.cn/open
+<kbd>域名：https://nexthuman.cn/open</kbd>
 
 ### 分类获取道具
 

@@ -4,7 +4,8 @@
 
 | 参数字段 | 参数类型 | 是否必须 | 备注 |
 |  ----   | ----  |----  |----  |
-| xxxx |xxx | xxx| xxx|
+| category |string | 是| 根据NextHuman平台道具分类获取道具列表|
+| scope |string | 是| NextHuman上道具的Tab：|
 
 
 ### 获取道具详情

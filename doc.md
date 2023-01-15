@@ -5,7 +5,7 @@
 <kbd>业务域名：https://nexthuman.cn/open</kbd>
 
 ### 分类获取道具:<kbd>/srv/bundle/getBundles</kbd>
-<kbd>Request参数：</kbd>
+<kbd>Request</kbd>
 | 参数字段 | 参数类型     | 是否必须    | 备注 |
 |  ----   | ----  |----  |----  |
 | category |string | 是| 根据NextHuman平台道具分类获取道具列表|
@@ -13,7 +13,12 @@
 | page |int32 | 是| 当前分页码，从1开始 |
 | pageSize |int32 | 是| 分页大小 |
 
-<kbd>Response参数：</kbd>
+<kbd>Response</kbd>
+| 参数字段 | 参数类型     | 是否必须    | 备注 |
+|  ----   | ----  |----  |----  |
+| code | int32     | 是    | 返回接口，0表示业务请求正常，其它数值皆为异常 |
+| msg  | string     | 否    | 业务返回的错误说明 |
+| data | Page     | 否    | 业务正常执行则存在 |
 
 
 

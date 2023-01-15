@@ -18,17 +18,16 @@
 
 | 参数字段 | 参数类型 | 是否必须 | 备注 |
 |  ----   | ----  |----  |----  |
-| xxxx |xxx | xxx| xxx|
+| bundleId | string | 是| 道具Id|
 
 ### 分类获取环境
 
 | 参数字段 | 参数类型 | 是否必须 | 备注 |
 |  ----   | ----  |----  |----  |
-| xxxx |xxx | xxx| xxx|
-
+| scope | string | 是| NextHuman平台的道具范围：creation(用户创作)、imports(用户自用)、free(通用/免费)、pri(定制)，目前只允许以上几个scope的数据获取，已购买和商城不支持SDK单独调用|
 
 ### 获取环境详情
 
 | 参数字段 | 参数类型 | 是否必须 | 备注 |
 |  ----   | ----  |----  |----  |
-| xxxx |xxx | xxx| xxx|
+| nusId |string | 是| 环境Id |

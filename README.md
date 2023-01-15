@@ -1,7 +1,8 @@
 ## NextHuman开放平台
 ### 接口文档
 
-[接口文档](doc.md)
+1)、[API文档](doc.md)
+2)、[JavaSDK](Java/README.md)
 
 
 ### 应用鉴权

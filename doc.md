@@ -18,7 +18,7 @@
 |  ----   | ----  |----  |----  |
 | code | int32     | 是    | 返回接口，0表示业务请求正常，其它数值皆为异常 |
 | msg  | string     | 否    | 业务错误说明 |
-|errorCode | string | 否 ｜ 业务错误码|
+|errorCode | string | 否 | 业务错误码|
 | data | [Page](page.md)<[Bundle](bundle.md)> | 否    | 分页结果 |
 
 
@@ -34,7 +34,7 @@
 |  ----   | ----  |----  |----  |
 | code | int32     | 是    | 返回接口，0表示业务请求正常，其它数值皆为异常 |
 | msg  | string     | 否    | 业务错误说明 |
-| errorCode | string | 否 ｜ 业务错误码 |
+| errorCode | string | 否 | 业务错误码 |
 | data | [Bundle](bundle.md) | 否    | 道具详情 |
 
 ### 分类获取环境:<kbd>/srv/bundle/getNuses</kbd>
@@ -62,6 +62,6 @@
 |  ----   | ----  |----  |----  |
 | code | int32     | 是    | 返回接口，0表示业务请求正常，其它数值皆为异常 |
 | msg  | string    | 否    | 业务错误说明 |
-| errorCode | string | 否 ｜ 业务错误码 |
+| errorCode | string | 否 | 业务错误码 |
 | data | [Nus](nus.md) | 否    | 环境详情 |
 

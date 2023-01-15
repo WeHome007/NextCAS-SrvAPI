@@ -2,7 +2,7 @@
 
 ### 服务请求域名
 
-<kbd>域名：https://nexthuman.cn/open</kbd>
+<kbd>业务域名：https://nexthuman.cn/open</kbd>
 
 ### 分类获取道具:<kbd>xx</kbd>
 

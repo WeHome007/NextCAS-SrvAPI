@@ -37,7 +37,9 @@
 ### 分类获取环境:<kbd>/srv/bundle/getNuses</kbd>
 | 参数字段<img width=20/>  | 参数类型<img width=80/>    | 是否必须<img width=20/>    | 备注 |
 |  ----   | ----  |----  |----  |
-| scope.md | string | 是| NextHuman平台道具范围：creation(用户创作)、imports(用户自用)、<br/>free(通用/免费)、pri(定制)，目前只允许以上几个scope的数据获取，<br/>已购买和商城不支持SDK单独调用|
+| [scope](scope.md) | string | 是| NextHuman平台道具范围：creation(用户创作)、imports(用户自用)、<br/>free(通用/免费)、pri(定制)，目前只允许以上几个scope的数据获取，<br/>已购买和商城不支持SDK单独调用|
+| page |int32 | 是| 当前分页码，从1开始 |
+| pageSize |int32 | 是| 分页大小 |
 
 <kbd>Response：</kbd>
 | 参数字段<img width=20/>  | 参数类型<img width=80/>    | 是否必须<img width=20/>    | 备注 |

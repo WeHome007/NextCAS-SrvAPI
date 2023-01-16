@@ -27,6 +27,24 @@
 | 面部动画 |faceani |  动画 | |
 | 特效动画 |effects |  动画 | |
 | 脸型 |faceshape |  容貌 | |
+| 眉毛 |eyebrow |  容貌 | |
+| 瞳孔 |pupil |  容貌 | |
+| 睫毛 |eyelash |  容貌 | |
+| 唇妆 |lipstick |  容貌 | |
+| 眼妆 |eyemakeup |  容貌 | |
+| 腮红 |blusher |  容貌 | |
+| 胡子 |mustache |  容貌 | 上胡子 |
+| 胡须 |beard |  容貌 | 下胡子|
+| 眼型 |eyeshape |  容貌 | |
+| 嘴型 |mouthshape |  容貌 | |
+| 鼻型 |noseshape |  容貌 | |
+| 幻装 |magicface |  容貌 | |
+| 皮肤纹理 |skintex |  容貌 | |
+| 汗毛 |fuzz |  容貌 | |
+
+
+
+
 
 
 

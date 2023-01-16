@@ -3,6 +3,7 @@
 ### 服务请求域名
 
 <kbd>业务域名：https://nexthuman.cn/open</kbd>
+<kbd>业务请求格式：application/json</kbd>
 
 ### 分类获取道具:<kbd>/srv/bundle/getBundles</kbd>
 | 参数字段<img width=20/>  | 参数类型<img width=80/>    | 是否必须<img width=20/>    | 备注 |

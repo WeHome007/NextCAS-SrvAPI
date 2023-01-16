@@ -5,6 +5,9 @@
 | 场景    |scene |  场景 | 场景道具 |
 | 应用    |app |  其他 | 代表NextHuman平台上的一个云渲染小程序 |
 | 传送门  |portal |  其他 | 传送门道具[更多是业务上的分类] |
+| 材质  |material |  其他 | 材质贴图|
+| 视频面片  |facet |  其他 | |
+| 装饰道具  |decoration |  其他 | |
 | 头发  |hair |  装扮 | |
 | 鞋子  |shoes |  装扮 | |
 | 连体服  |coverall |  装扮 | |

@@ -8,6 +8,7 @@
 | 材质  |material |  其他 | 材质贴图|
 | 视频面片  |facet |  其他 | |
 | 装饰道具  |decoration |  其他 | |
+| 动态镜头  |camera |  其他 | |
 | 头发  |hair |  装扮 | |
 | 鞋子  |shoes |  装扮 | |
 | 连体服  |coverall |  装扮 | |
@@ -21,6 +22,13 @@
 | 面具 |facemask |  装扮 | |
 | 袜子 |socks |  装扮 | |
 | 手套 |gloves |  装扮 | |
+| 嘴型动画 |lipani |  动画 | 特质Audio2Face / Text2Face生成的唇形动画 |
+| 身体动画 |skeani |  动画 | |
+| 面部动画 |faceani |  动画 | |
+| 特效动画 |effects |  动画 | |
+| 脸型 |faceshape |  容貌 | |
+
+
 
 
 

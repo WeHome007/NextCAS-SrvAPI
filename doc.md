@@ -2,7 +2,7 @@
 
 ### 服务请求域名
 
-<kbd>业务域名：https://nexthuman.cn/open</kbd>
+<kbd>业务请求域名：https://nexthuman.cn/open</kbd>
 <br/>
 <kbd>业务请求格式：application/json</kbd>
 

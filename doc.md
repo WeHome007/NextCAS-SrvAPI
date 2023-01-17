@@ -6,7 +6,8 @@
 <br/>
 <kbd>业务请求格式：application/json</kbd>
 
-### 分类获取道具:<kbd>/srv/bundle/getBundles</kbd>
+### 分类获取道具
+<kbd>请求路径：/srv/bundle/getBundles</kbd>
 | 参数字段<img width=20/>  | 参数类型<img width=80/>    | 是否必须<img width=20/>    | 备注 |
 |  ----   | ----  |----  |----  |
 | [category](category.md) |string | 是| 根据NextHuman平台道具分类获取道具列表|
@@ -23,7 +24,8 @@
 | data | [Page](page.md)<[Bundle](bundle.md)> | 否    | 分页结果 |
 
 
-### 获取道具详情:<kbd>/srv/bundle/getBundleById</kbd>
+### 获取道具详情
+<kbd>请求路径：/srv/bundle/getBundleById</kbd>
 | 参数字段<img width=20/>  | 参数类型<img width=80/>    | 是否必须<img width=20/>    | 备注 |
 |  ----   | ----  |----  |----  |
 | bundleId | string | 是 | 道具Id|
@@ -36,7 +38,8 @@
 | errorCode | string | 否 | 业务错误码 |
 | data | [Bundle](bundle.md) | 否    | 道具详情 |
 
-### 分类获取环境:<kbd>/srv/bundle/getNuses</kbd>
+### 分类获取环境
+<kbd>请求路径：/srv/bundle/getNuses</kbd>
 | 参数字段<img width=20/>  | 参数类型<img width=80/>    | 是否必须<img width=20/>    | 备注 |
 |  ----   | ----  |----  |----  |
 | [scope](scope.md) | string | 是| NextHuman平台道具范围：creation(用户创作)、imports(用户自用)、<br/>free(通用/免费)、pri(定制)，目前只允许以上几个scope的数据获取，<br/>已购买和商城不支持SDK单独调用|

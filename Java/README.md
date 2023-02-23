@@ -4,7 +4,7 @@ POM引入:
 <dependency>
   <groupId>cn.nexthuman.open</groupId>
   <artifactId>nextsrv-java</artifactId>
-  <version>1.0.6</version>
+  <version>1.0.7</version>
 </dependency>
 ```
 SDK初始化：

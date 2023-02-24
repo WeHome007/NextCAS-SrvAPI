@@ -61,7 +61,7 @@
 |  ----   | ----  |----  |----  |
 | srcAvatarId |string | 是| 角色Id |
 | name |string | 是| 新角色名 |
-| dressups |array[BundleBind](bundlebind.md) | 否 | 指定新角色的装扮，不指定则沿用srcAvatar的装扮 |
+| dressups |array<[BundleBind](bundlebind.md)> | 否 | 指定新角色的装扮，不指定则沿用srcAvatar的装扮 |
 
 <kbd>请求响应：</kbd>
 | 参数字段<img width=20/>  | 参数类型<img width=80/>    | 是否必须<img width=20/>    | 备注 |

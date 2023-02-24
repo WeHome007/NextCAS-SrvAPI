@@ -42,4 +42,24 @@ request.setScope("free");
 GetNusesResponse response = (GetNusesResponse)client.execute(request);
 ```
 
+角色复制
+```
+CopyAvatarRequest request = new CopyAvatarRequest();
+request.setName("副本001");
+request.setSrcAvatarId("${avatarId}");
+request.setDressups(null);//如果设置了装扮道具，则以该装扮作为新角色的装扮
+CopyAvatarResponse response = (CopyAvatarResponse)client.execute(request);
+```
+
+角色更新
+```
+UpdateAvatarRequest request = new UpdateAvatarRequest();
+request.setAvatarId("${avatarId}");
+request.setDressups(dressups);
+request.setMakeups(makeups);
+request.setName("成吉思汗");
+request.setIcon(icon);
+BaseResponse response = client.execute(request);
+```
+
 

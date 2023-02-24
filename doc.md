@@ -60,7 +60,7 @@
 | 参数字段<img width=20/>  | 参数类型<img width=80/>    | 是否必须<img width=20/>    | 备注 |
 |  ----   | ----  |----  |----  |
 | srcAvatarId |string | 是| 角色Id |
-| name |string | 是| 新角色名 |
+| name |string | 否| 新角色名 |
 | dressups |array<[BundleBind](bundlebind.md)> | 否 | 指定新角色的装扮，不指定则沿用srcAvatar的装扮 |
 
 <kbd>请求响应：</kbd>
@@ -70,3 +70,21 @@
 | msg  | string     | 否    | 业务错误说明 |
 | errorCode | string | 否 | 业务错误码 |
 | data | string | 否    | 角色ID，成功后返回 |
+
+### 角色更新
+<kbd>请求路径：/srv/avatar/update</kbd>
+| 参数字段<img width=20/>  | 参数类型<img width=80/>    | 是否必须<img width=20/>    | 备注 |
+|  ----   | ----  |----  |----  |
+| avatarId |string | 是| 角色Id |
+| name |string | 否| 新角色名 |
+| icon |string | 否| 新角色封面 |
+| dressups |array<[BundleBind](bundlebind.md)> | 是 | 装扮 |
+| makeups |array<[BundleBind](bundlebind.md)> | 否 | 妆容 |
+
+<kbd>请求响应：</kbd>
+| 参数字段<img width=20/>  | 参数类型<img width=80/>    | 是否必须<img width=20/>    | 备注 |
+|  ----   | ----  |----  |----  |
+| code | int32     | 是    | 返回接口，0表示业务请求正常，其它数值皆为异常 |
+| msg  | string     | 否    | 业务错误说明 |
+| errorCode | string | 否 | 业务错误码 |
+| data | boolean | 否    | 更新状态 |

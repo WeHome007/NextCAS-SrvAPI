@@ -33,14 +33,6 @@ GetBundleByIdRequest request = new GetBundleByIdRequest();
 request.setBundleId("shoes_62fe071fc796115aac8a6c2d");
 GetBundleByIdResponse response = (GetBundleByIdResponse)client.execute(request);
 ```
-分类获取环境
-```
-GetNusesRequest request = new GetNusesRequest();
-request.setPage(1);
-request.setSize(50);
-request.setScope("free");
-GetNusesResponse response = (GetNusesResponse)client.execute(request);
-```
 
 角色复制
 ```
